@@ -1,0 +1,84 @@
+/* Corps de la page */
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style les balises "Form" */
+form {
+    background: white;
+    padding: 15px; /* Réduction du padding pour un cadre plus compact */
+    margin: 20px auto;
+    width: 60%; /* Largeur identique à celle des autres formulaires */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form[style="display:inline;"] {
+    display: inline;
+}
+
+
+/* Taille des champs textes et dates dans le form*/
+input[type="text"], input[type="date"] {
+    width: 20%;
+    padding: 6px; /* Réduction de la taille du padding */
+    margin: 5px 0; /* Réduction de l'espacement vertical */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Taille de texte similaire aux champs de login/mot de passe */
+}
+
+
+/* Style des boutons et balises submit */
+input[type="submit"], button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}   
+
+/* Style du bouton pour effacer une liste */
+button[name="delete_list"], button[name="delete_task"] {
+    background-color: #dc3545;
+}
+
+
+
+/* Bouton Ajouter une tâche*/
+form.bouton-ajouter_tache {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    box-shadow: none;
+    background: none;
+    border-radius: 0;
+}
+
+/* Changement de couleur au survol de ces boutons 
+button:hover, input[type="submit"]:hover {
+    background-color: #218838;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
